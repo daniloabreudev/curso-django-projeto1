@@ -6,7 +6,7 @@
     @"%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-@set "VIRTUAL_ENV=C:\Dev\projeto1\.venv"
+@set "VIRTUAL_ENV=C:\curso-django\projeto1\.venv"
 
 @if not defined PROMPT @set PROMPT=$P$G
 

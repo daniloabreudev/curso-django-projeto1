@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - José Danilo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .card-contato {
+            background-color: #ffffff;
+            width: 100%;
+            max-width: 400px;
+            padding: 32px 24px;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .avatar {
+            width: 80px;
+            height: 80px;
+            background-color: #0d6efd;
+            color: #ffffff;
+            font-size: 28px;
+            font-weight: bold;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 16px;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #1c1e21;
+            margin-bottom: 6px;
+        }
+
+        .cargo {
+            font-size: 14px;
+            color: #606770;
+            margin-bottom: 24px;
+        }
+
+        .info-box {
+            background-color: #f8f9fa;
+            border: 1px solid #e4e6eb;
+            border-radius: 8px;
+            padding: 14px;
+            margin-bottom: 20px;
+        }
+
+        .info-label {
+            display: block;
+            font-size: 12px;
+            color: #65676b;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+        }
+
+        .info-valor {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1c1e21;
+        }
+
+        .btn-whatsapp {
+            display: inline-block;
+            width: 100%;
+            background-color: #25d366;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 12px 20px;
+            border-radius: 8px;
+            transition: background-color 0.2s;
+        }
+
+        .btn-whatsapp:hover {
+            background-color: #1ebe57;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card-contato">
+        <div class="avatar">JD</div>
+        <h1>José Danilo</h1>
+        <p class="cargo">Desenvolvedor Python &amp; Django</p>
+
+        <div class="info-box">
+            <span class="info-label">Telefone / WhatsApp</span>
+            <span class="info-valor">(11) 9 9895-2868</span>
+        </div>
+
+        <a href="https://wa.me/5511998952868" target="_blank" class="btn-whatsapp">
+            Chamar no WhatsApp
+        </a>
+    </div>
+
+</body>
+</html>
